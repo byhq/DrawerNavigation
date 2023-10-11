@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_cerita"
+                android:icon="@drawable/cerita"
+                android:title="Cerita"/>
+        </menu>
+
+    </item>
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/group"
+            android:title="Grup Baru"/>
+
+        <item
+            android:id="@+id/nav_kontak"
+            android:icon="@drawable/kontak"
+            android:title="Kontak"/>
+
+        <item
+            android:id="@+id/nav_panggilan"
+            android:icon="@drawable/phone"
+            android:title="Panggilan"/>
+
+        <item
+            android:id="@+id/nav_pengguna_sekitar"
+            android:icon="@drawable/pengguna_sekitar"
+            android:title="Pengguna Sekitar"/>
+
+        <item
+            android:id="@+id/nav_pesan_tersimpan"
+            android:icon="@drawable/pesan_tersimpan"
+            android:title="Pesan Tersimpan"/>
+
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/pengaturan"
+            android:title="Pengaturan"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_undang"
+                android:icon="@drawable/undang"
+                android:title="Undang Teman"/>
+
+        </menu>
+
+    </item>
+
+</menu>
